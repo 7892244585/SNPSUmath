@@ -125,5 +125,4 @@ function generateQRCode() {
 // Generate the default QR code when the page loads
 window.onload = function () {
     generateQRCode(); // Generate QR code for the default URL on page load
-};
-
+}

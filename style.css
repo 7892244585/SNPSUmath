@@ -5,22 +5,35 @@
   box-sizing: border-box;
 }
 
-body {
+.body1 {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
+  background-image: url("background3.jpg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  
+}
+.puni{
+  color: #cc2e2e;
 }
 
 /* Header */
 header {
-  background-color: #2c3e50;
-  color: white;
+  background-color:darkblue;
+  color:  white;
   padding: 20px 0;
+  background-position: 0cap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 header h1 {
@@ -40,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: darkmagenta;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -48,9 +61,14 @@ nav ul li a {
 /* Hero Section */
 #hero {
   background-color: #2980b9;
-  color: white;
+  color: purple;
   padding: 80px 0;
   text-align: center;
+  background-image: url("NPS\ university.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: initial;
+
 }
 
 #hero h2 {
@@ -176,14 +194,14 @@ body {
   text-align: center;
   padding: 20px;
 }
-
-.magicsquare1 {
-  margin: 20px auto;
-  border-collapse: collapse;
+.magicsquare{
+  margin-bottom: 20px;
+  max-width: 20px;
 }
 
+
 td{
-  border: 1px solid #000;
+  border: 1px solid white;
   padding: 20px;
   width: 60px;
   height: 60px;
@@ -209,8 +227,15 @@ body {
 }
 
 table {
-  margin: 20px auto;
-  border-collapse: collapse;
+  font-style: italic;
+  margin: 100px auto;
+  border-color:red;
+  border-radius: 0cap;
+  border-width: 200px;
+  color:white;
+  background-image: url("background3.jpg.jpeg");
+  
+  
 }
 
 td{
@@ -237,4 +262,8 @@ input {
 }
 table{
   background-color:blue;
+}
+image.srinivas{
+  height: 2px;
+  width: 1px;
 }
